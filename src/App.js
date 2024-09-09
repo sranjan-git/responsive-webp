@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar/Sidebar';
 import Header from './components/Header/Header';
-import Dashboard from './components/Dashboard/Dashboard';  // New component for stats
+import Dashboard from './components/Dashboard/Dashboard';  
 import './App.css';
 import UpcomingSchedule from './components/UpcomingSchedule/UpcomingSchedule';
 import Announcement from './components/Announcement/Announcement';
