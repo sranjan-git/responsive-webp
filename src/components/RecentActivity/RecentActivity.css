@@ -1,0 +1,37 @@
+.recent-activity {
+    width: 427px;
+    height: 258px;
+    position: absolute;
+    top: 164px;
+    left: 963px;
+    opacity: 0; /* Adjust opacity as needed */
+    border-radius: 10px 0 0 0;
+    background: linear-gradient(0deg, #161E54, #161E54),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  }
+  
+  .recent-activity header {
+    width: 100%;
+    padding: 0.625rem 0.625rem 0.625rem 1.5rem; /* py-2.5 pr-2.5 pl-6 */
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 500; /* font-medium */
+    line-height: 1.75rem; /* leading-loose */
+    color: #ffffff; /* text-white */
+    background-color: #4f46e5; /* bg-indigo-950 */
+    border-radius: 10px 0 0 0;
+    margin-bottom: 1.75rem; /* pb-7 */
+  }
+  
+  .recent-activity .content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem; /* px-6 */
+    color: #ffffff; /* text-white */
+    gap: 0; /* gap: 0px */
+  }
+  
+  .recent-activity .activity-card {
+    margin-bottom: 1.75rem; /* Adjust as needed */
+  }
+  

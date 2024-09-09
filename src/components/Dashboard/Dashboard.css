@@ -1,0 +1,33 @@
+/* .dashboard-stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    top: 166px;
+  }
+  
+  .stat-card {
+    width: 204px;
+ 
+  } */
+  
+  /* Main container for the dashboard */
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Container for the cards (Available Position, Job Open, New Employees) */
+.dashboard-stats {
+  display: flex;
+  gap: 16px;
+  
+}
+
+
+  
+  
+  

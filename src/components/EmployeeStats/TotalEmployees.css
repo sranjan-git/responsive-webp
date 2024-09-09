@@ -1,0 +1,29 @@
+.total-employees {
+    width: 312px;
+    height: 190px;
+    position: absolute;
+    top: 322px;
+    left: 293px;
+    padding: 20px 0 0 0;
+    gap: 40px;
+    border-radius: 10px 0 0 0;
+    border: 1px solid transparent; /* Adjust border style as needed */
+    opacity: 0; /* Adjust opacity as needed */
+    background-color: #f0f4f8; /* Example background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  }
+  
+  /* Adjust the following class to match your Tailwind CSS classes */
+  .total-employees h2 {
+    font-size: 1.125rem; /* text-lg */
+    line-height: 1.75rem; /* leading-loose */
+    color: #1e3a8a; /* text-blue-950 */
+  }
+  
+  .total-employees p {
+    margin-top: 1.5rem; /* mt-6 */
+    font-size: 3rem; /* text-5xl */
+    line-height: 1; /* leading-none */
+    color: #1e3a8a; /* text-blue-950 */
+  }
+  
