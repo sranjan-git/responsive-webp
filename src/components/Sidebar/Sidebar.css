@@ -1,10 +1,10 @@
 .sidebar-container {
   position: fixed; /* Fix the sidebar to the left */
-  
   width: 242px;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  transition: width 0.3s ease; /* Smooth transition for width */
 }
 
 /* Sidebar header */
@@ -15,7 +15,6 @@
   margin-bottom: 20px;
 }
 
-
 /* Section titles */
 .menu-section-title {
   font-size: 12px;
@@ -23,7 +22,7 @@
   text-transform: uppercase;
   padding-left: 20px;
   margin-bottom: 10px;
-  padding: 10px, 0px, 10px, 30px;
+  padding: 10px 0px 10px 30px;
 }
 
 /* Individual menu items */
@@ -51,10 +50,99 @@
   color: #ff4b4b; /* Red text for active item */
 }
 
-
-
 /* Other section styling */
 .sidebar-container .menu-section {
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .sidebar-container {
+    width: 200px; /* Reduce sidebar width */
+  }
+
+  .menu-item {
+    padding: 12px 0px 12px 20px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Reduce font size */
+  }
+
+  .menu-item img {
+    width: 18px; /* Reduce icon size */
+    height: 18px;
+  }
+
+  .menu-section-title {
+    font-size: 11px; /* Slightly smaller section title */
+    padding-left: 15px;
+  }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 150px; /* Shrink sidebar further */
+  }
+
+  .menu-item {
+    padding: 10px 0px 10px 15px; /* Adjust padding */
+    font-size: 13px; /* Smaller font size */
+  }
+
+  .menu-item img {
+    width: 16px; /* Further reduce icon size */
+    height: 16px;
+  }
+
+  .menu-section-title {
+    font-size: 10px; /* Reduce section title size */
+    padding-left: 10px;
+  }
+}
+
+/* Small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .sidebar-container {
+    width: 100px; /* Minimal sidebar width */
+  }
+
+  .menu-item {
+    padding: 8px 0px 8px 10px; /* Further reduce padding */
+    font-size: 12px; /* Smaller font size */
+    gap: 15px; /* Reduce gap between icon and text */
+  }
+
+  .menu-item img {
+    width: 14px; /* Smaller icon size */
+    height: 14px;
+  }
+
+  .menu-section-title {
+    font-size: 9px; /* Very small section title */
+    padding-left: 5px;
+  }
+}
+
+/* Extra small screens (max-width: 360px) */
+@media (max-width: 360px) {
+  .sidebar-container {
+    width: 80px; /* Minimal sidebar for extra small screens */
+  }
+
+  .menu-item {
+    padding: 6px 0px 6px 8px; /* Minimal padding */
+    font-size: 11px; /* Smallest font size */
+    gap: 10px; /* Minimal gap */
+  }
+
+  .menu-item img {
+    width: 12px; /* Minimal icon size */
+    height: 12px;
+  }
+
+  .menu-section-title {
+    font-size: 8px; /* Small section title */
+  }
 }
