@@ -1,0 +1,18 @@
+/* Header for large screens */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+  }
+  
+  /* Adjust header layout for mobile */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
