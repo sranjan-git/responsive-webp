@@ -1,16 +1,4 @@
-/* .dashboard-stats {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 20px;
-    top: 166px;
-  }
-  
-  .stat-card {
-    width: 204px;
- 
-  } */
-  
-  /* Main container for the dashboard */
+/* Main container for the dashboard */
 .dashboard-container {
   display: flex;
   flex-direction: row;
@@ -24,10 +12,67 @@
 .dashboard-stats {
   display: flex;
   gap: 16px;
-  
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
 }
 
+/* Individual stat cards */
+.stat-card {
+  width: 204px; /* Default width for larger screens */
+}
 
-  
-  
-  
+/* --- RESPONSIVE ADJUSTMENTS --- */
+
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .dashboard-container {
+    flex-direction: column; /* Stack dashboard sections vertically */
+    align-items: center;
+  }
+
+  .dashboard-stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .stat-card {
+    width: 180px; /* Slightly smaller cards on tablet */
+  }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .dashboard-stats {
+    flex-direction: column; /* Stack the stats cards vertically */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dashboard-container {
+    gap: 12px;
+  }
+
+  .stat-card {
+    width: 100%; /* Cards take up full width on mobile */
+  }
+}
+
+/* Small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .dashboard-container {
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-stats {
+    gap: 8px;
+    flex-direction: column;
+    width: 100%; /* Ensure cards fill available space */
+  }
+
+  .stat-card {
+    width: 100%; /* Cards fill the entire screen width */
+  }
+}
