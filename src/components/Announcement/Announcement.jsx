@@ -7,25 +7,25 @@ const announcementData = [
     title: "Outing schedule for every departement",
     time: "5 Minutes ago",
     iconSrc1:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d02701dde526b9c363c732a6233e026b7a867427eb5a85bb810fb1bff0b6c406?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
+      "/assets/16.svg",
     iconSrc2:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a1f5fc02b09f83f4fc5bbad40e585efa4c343b2cfabfab09525e2df94d648f07?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
-  },
+      "/assets/17.svg",  
+    },
   {
     title: "Meeting HR Department",
     time: "Yesterday, 12:30 PM",
     iconSrc1:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/4a4b53e5df092af3c7b987228871590fb3f0b68befbad1c1ecbca6abfbaaa3c5?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
+      "/assets/25.svg",    
     iconSrc2:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a1f5fc02b09f83f4fc5bbad40e585efa4c343b2cfabfab09525e2df94d648f07?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
+      "/assets/17.svg",  
   },
   {
     title: "IT Department need two more talents for UX/UI Designer position",
     time: "Yesterday, 09:15 AM",
     iconSrc1:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/4a4b53e5df092af3c7b987228871590fb3f0b68befbad1c1ecbca6abfbaaa3c5?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
+      "/assets/25.svg",    
     iconSrc2:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a1f5fc02b09f83f4fc5bbad40e585efa4c343b2cfabfab09525e2df94d648f07?placeholderIfAbsent=true&apiKey=5070ce5c9fb2416aac0a8fcf33e9cc20",
+      "/assets/17.svg",  
   },
 ];
 
